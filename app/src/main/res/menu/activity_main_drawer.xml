@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_movie"
+            android:icon="@drawable/ic_baseline_local_movies_24"
+            android:title="@string/menu_movie" />
+        <item
+            android:id="@+id/nav_acting"
+            android:icon="@drawable/ic_baseline_sports_kabaddi_24"
+            android:title="@string/menu_acting" />
+        <item
+            android:id="@+id/nav_directing"
+            android:icon="@drawable/ic_baseline_movie_filter_24"
+            android:title="@string/menu_directing" />
+        <item
+            android:id="@+id/nav_writing"
+            android:icon="@drawable/ic_baseline_wrap_text_24"
+            android:title="@string/menu_writing" />
+        <item
+            android:id="@+id/nav_editing"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_editing" />
+       <item
+            android:id="@+id/nav_more"
+            android:icon="@drawable/ic_baseline_more_horiz_24"
+            android:title="@string/menu_more" />
+
+    </group>
+</menu>
